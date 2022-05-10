@@ -1,0 +1,44 @@
+﻿<Page x:Class="PersonnelDepartment.Pages.DepartmentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PersonnelDepartment.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="824"
+      Title="DepartmentPage">
+
+    <Grid Background="#FF040415">
+        <ListView x:Name="lvDepartment" 
+                  d:ItemsSource="{d:SampleData ItemCount=5}"
+                  Background="#FF040415">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="800" Height="70">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" 
+                                   Text="{Binding NameDepartment}" 
+                                   VerticalAlignment="Center"
+                                   FontSize="26"
+                                   Margin="50 0"
+                                   Foreground="Aqua"/>
+
+                        <Button Content="Изменить данные"
+                                Grid.Column="1"
+                                Height="40"
+                                Width="200"
+                                Background="#FFA8BBF0"
+                                Foreground="White"
+                                FontSize="20"/>
+
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
