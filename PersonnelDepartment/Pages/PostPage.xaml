@@ -8,10 +8,10 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PostPage">
 
-    <Grid Background="#FF040415">
+    <Grid Background="#FF569DDE">
         <ListView x:Name="lvPost" 
                   d:ItemsSource="{d:SampleData ItemCount=5}"
-                  Background="#FF040415">
+                  Background="#FF569DDE">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Grid Width="800" Height="70">

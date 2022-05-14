@@ -62,7 +62,7 @@
             </StackPanel>
 
         </Border>
-        <Border Background="#FF040415"
+        <Border Background="#FF569DDE"
                 Grid.Column="1"/>
         <Button x:Name="BTNExit" 
                 Grid.Row="1" 

@@ -9,7 +9,7 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="ToolWindow"
         ResizeMode="NoResize">
-    <Grid Background="#FF040415">
+    <Grid Background="#FF569DDE">
 
         <Border Background="Aqua"
                 Height="150"

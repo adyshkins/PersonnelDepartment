@@ -8,10 +8,10 @@
       d:DesignHeight="768" d:DesignWidth="824"
       Title="DepartmentPage">
 
-    <Grid Background="#FF040415">
+    <Grid Background="#FF569DDE">
         <ListView x:Name="lvDepartment" 
                   d:ItemsSource="{d:SampleData ItemCount=5}"
-                  Background="#FF040415">
+                  Background="#FF569DDE">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Grid Width="800" Height="70">

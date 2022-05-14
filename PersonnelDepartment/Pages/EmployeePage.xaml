@@ -8,7 +8,7 @@
       d:DesignHeight="768" d:DesignWidth="824"
       Title="EmployeePage">
 
-    <Grid Background="#FF040415">
+    <Grid Background="#FF569DDE">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
@@ -23,7 +23,7 @@
 
         <ListView x:Name="LVEmployee"
                   Grid.Row="1" 
-                  Background="#FF040415"
+                  Background="#FF569DDE"
                   d:ItemsSource="{d:SampleData ItemCount=5}">
 
             <ListView.ItemContainerStyle>
